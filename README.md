@@ -12,7 +12,7 @@ It shows you something like this:
 
 ```
 [strength] [mac]        [oui]         [seen]
--53 aa:bb:cc:dd:ee:ff   Manufacturer  7s ago
+-53 aa:bb:cc:dd:ee:ff   Manufacturer  5s ago
   (Probe request) -53   seen 6s ago:  NETGEAR71
   (Probe request) -53   seen 6s ago:  Starbucks
   (Probe request) -53   seen 6s ago:  eduroam
@@ -20,7 +20,8 @@ It shows you something like this:
   (Probe request) -53   seen 6s ago:  FREEWIFI_OLEARYS
   (Probe request) -53   seen 6s ago:  hideyokidshideyowifi
 ```
-...
+In this example above, it shows us that the wifi device with mac address aa:bb:cc:dd:ee:ff was "heard" 5 seconds ago, and it has in the past searched for a list of wifi network names, as shown in the list.
+These wifi network names can subsequently be used with e.g. wigle.net.
 
 Usage
 =====
