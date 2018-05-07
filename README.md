@@ -10,6 +10,7 @@ What is it?
 It's a tool that shows you (real time) which wifi clients that are nearby, and which network they are searching for (probe requests).
 It shows you something like this:
 
+```
 [strength] [mac]        [oui]         [seen]
 -53 aa:bb:cc:dd:ee:ff   Manufacturer  7s ago
   (Probe request) -53   seen 6s ago:  NETGEAR71
@@ -18,6 +19,7 @@ It shows you something like this:
   (Probe request) -53   seen 6s ago:  Tivoli Hotel & Congress Center
   (Probe request) -53   seen 6s ago:  FREEWIFI_OLEARYS
   (Probe request) -53   seen 6s ago:  hideyokidshideyowifi
+```
 ...
 
 Usage
